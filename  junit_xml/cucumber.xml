@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="35.076524">
+<testcase classname="Tesco Website Application Test" name="Validate Ordering the Product" time="35.076524">
+<system-out><![CDATA[Given User logs into the application........................................passed
+Then User searches the product..............................................passed
+And User adds the required product and checksout............................passed
+]]></system-out>
+</testcase>
+</testsuite>

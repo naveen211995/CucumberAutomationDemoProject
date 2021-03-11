@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Validate Ordering the Product",
+        "description": "",
+        "id": "tesco-website-application-test;validate-ordering-the-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25529008700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User logs into the application",
+            "match": {
+              "location": "ShopGroceriesStepDefinition.user_logs_into_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4252529800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User searches the product",
+            "match": {
+              "location": "ShopGroceriesStepDefinition.user_searches_the_product()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5294985000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User adds the required product and checksout",
+            "match": {
+              "location": "ShopGroceriesStepDefinition.user_adds_the_required_product_and_checksout()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Tesco Website Application Test",
+    "description": "",
+    "id": "tesco-website-application-test",
+    "keyword": "Feature",
+    "uri": "F:/KundanSirProject/TescoDemo/src/test/java/com/qa/example/features/shopGroceries.feature"
+  }
+]
